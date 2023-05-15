@@ -1,4 +1,5 @@
 require('dotenv').config();
+const mongoose = require('mongoose')
 const { DB_URI, DB_NAME } = process.env;
 
 class Database {
@@ -20,7 +21,7 @@ class Database {
                 useUnifiedTopology: true
             });
 
-            console.log(this.#route + "estabilished connection with the database");
+            console.log(this.#route + " CONNECTION ESTABILISHED");
         } catch (error) {
             console.error(error.message);
             process.exit(1);

@@ -12,7 +12,7 @@ class Server {
 
     start(){
         this.#app.listen(this.#port, () => {
-            console.log("SERVER RUNING IN THE PORT " + this.#port);
+            console.log("SERVER RUNING IN PORT " + this.#port);
         });
     }
 }
