@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+input{
+    background-color: rgb(90, 58, 58);
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+
+    color: rgb(206, 3, 3);
+}
+
+button{
+    background-color: rgb(90, 58, 58);
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+
+    color: rgb(133, 133, 133);
+}
+
+a{
+    color: rgb(206, 3, 3);
+    font-size: 25px;
+}

@@ -25,12 +25,15 @@
   },
   "homepage": "https://github.com/Vinicius-Borges7/LoginSystem#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.1.1",
-    "node-cron": "^3.0.2"
+    "node-cron": "^3.0.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
   },
   "devDependecies": {
     "nodemon": "^2.0.22"

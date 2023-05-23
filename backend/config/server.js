@@ -1,6 +1,8 @@
+// Dependencies //
 require('dotenv').config();
 const { PORT } = process.env;
 
+// Main Code //
 class Server {
     #app;
     #port;
